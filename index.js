@@ -46,6 +46,10 @@ app.get('/home',(req,res)=>{
     res.send('Hello Pradum');
 })
 
+app.get('/useLess',(req,res)=>{
+    res.send("Naman Bhai is Useless");
+})
+
 app.listen(PORT,()=>{
     console.log(`Server is running on port ${PORT}`);
 })
